@@ -1,6 +1,15 @@
 import './App.css'
 import FadeIn from './FadeIn'
 import proFilePic3 from '/ProfilepicPort3.png'
+import htmlLogo from '/html-logo.png'
+import cssLogo from '/css-logo.png'
+import jsLogo from '/js-logo.png'
+import reactLogo from '/react-logo.png'
+import gitLogo from '/git-logo.png'
+import nodeJSLogo from '/nodejs-logo.png'
+import mongoDBLogo from '/mg-logo.png'
+import tailwindLogo from '/tw-logo.png'
+import psLogo from '/ps-logo.png'
 
 const Section3 = () => {
     return (
@@ -30,36 +39,38 @@ const Section3 = () => {
                   </FadeIn>
                   </div>
                 </div>
-                <FadeIn offset={1000} delay={1200}>
+                <FadeIn offset={1200} delay={1200}>
                 <div className='mt-20 flex justify-center md:justify-start gap-5'>
-                  <img className='w-[40px] md:w-[80px]' src="/html-logo.png" alt="html-logo" />
-                  <img className='w-[40px] md:w-[80px]' src="/css-logo.png" alt="css-logo" />
-                  <img className='w-[35px] md:w-[70px]' src="/js-logo.png" alt="js-logo" />
-                  <img className='w-[40px] md:w-[80px]' src="/react-logo.png" alt="react-logo" />
-                  <img className='w-[40px] md:w-[80px]' src="/git-logo.png" alt="git-logo" />
+                  <img className='w-[40px] md:w-[80px]' src={htmlLogo} alt="html-logo" />
+                  <img className='w-[40px] md:w-[80px]' src={cssLogo} alt="css-logo" />
+                  <img className='w-[35px] md:w-[70px]' src={jsLogo} alt="js-logo" />
+                  <img className='w-[40px] md:w-[80px]' src={reactLogo} alt="react-logo" />
+                  <img className='w-[40px] md:w-[80px]' src={gitLogo} alt="git-logo" />
                 </div>
+                </FadeIn>
+                <FadeIn offset={1200} delay={1400}>
                 <div className='mt-3 flex justify-center md:justify-start gap-5'>
-                  <img className='w-[50px] md:w-[100px]' src="/nodejs-logo.png" alt="NodeJs-logo" />
-                  <img className='w-[40px] md:w-[80px]' src="/mg-logo.png" alt="mongoDB-logo" />
-                  <img className='w-[50px] md:w-[100px]' src="/tw-logo.png" alt="Tailwind-logo" />
-                  <img className='w-[50px] md:w-[100px]' src="/ps-logo.png" alt="Photoshop-logo" />
+                  <img className='w-[50px] md:w-[100px]' src={nodeJSLogo} alt="NodeJs-logo" />
+                  <img className='w-[40px] md:w-[80px]' src={mongoDBLogo} alt="mongoDB-logo" />
+                  <img className='w-[50px] md:w-[100px]' src={tailwindLogo} alt="Tailwind-logo" />
+                  <img className='w-[50px] md:w-[100px]' src={psLogo} alt="Photoshop-logo" />
                 </div>
                 </FadeIn>
               </div>
             </div>
             <div className='w-full md:w-1/2 py-0 md:py-20 pl-5 pr-5 md:pl-10 md:pr-0 relative'>
               <div className='text-white mb-10'>
-              <FadeIn offset={1000} delay={1500}>
+              <FadeIn offset={1200} delay={1600}>
                 <h3 className='font-medium text-4xl'>Certificate</h3>
               </FadeIn>
-              <FadeIn offset={1000} delay={1800}>
+              <FadeIn offset={1400} delay={1800}>
                 <div className='text-xl pt-10 pl-10'>
                   <p className='pt-10'>• AWS re/Start Graduate</p>
                   <p className='pt-10'>• AWS Certified Cloud Practitioner</p>
                 </div>
               </FadeIn>
               </div>
-              <FadeIn offset={1000} delay={2100}>
+              <FadeIn offset={1400} delay={2100}>
               <div className='mt-10 lg:mt-20 flex justify-center md:justify-start gap-5'>
                   <img className='w-[70px] md:w-[100px]' src="/aws-re-start.png" alt="AWS-restart-logo" />
                   <img className='w-[70px] md:w-[100px]' src="/aws-cloud-prac.png" alt="AWS-Prac-logo" />
