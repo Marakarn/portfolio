@@ -3,6 +3,10 @@ import FadeIn from './FadeIn'
 import { useState} from 'react'
 import typing_gif from '/typing.gif'
 import github_logo from '/github-logo.png'
+import s3static from '/s3staticweb.png'
+import colmar from '/colmar.png'
+import green_sculpt from '/green_sculpt.png'
+import react_assessment from '/react_assessment.png'
 
 const Section4 = () => {
     
