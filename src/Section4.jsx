@@ -31,7 +31,7 @@ const Section4 = () => {
                   <FadeIn offset={1500} delay={900}>
                     <p className="cursor-pointer" onMouseEnter={() => setImageSrc(green_sculpt)} onMouseLeave={() => setImageSrc(typing_gif)}>• Greensculpt Workout App</p>
                       <div className='flex gap-5 mt-2 ml-4 mb-4'>
-                      <a href='' target='_blank'><button className='btn btn-sm'><span className="material-symbols-outlined">link</span>Link</button></a>
+                      <a href='https://greensculpt.vercel.app/' target='_blank'><button className='btn btn-sm'><span className="material-symbols-outlined">link</span>Link</button></a>
                       <a href='https://github.com/Marakarn/Corgi-Milkshake-Final-Project' target='_blank'><button className='btn btn-sm'><img className='w-5' src={github_logo} />github</button></a>
                       </div>
                     <p className="cursor-pointer" onMouseEnter={() => setImageSrc(react_assessment)} onMouseLeave={() => setImageSrc(typing_gif)}>• React Assessment</p>
